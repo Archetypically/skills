@@ -1,5 +1,7 @@
 # x-virality
 
+[![skills.sh](https://skills.sh/b/Archetypically/skills)](https://skills.sh/Archetypically/skills)
+
 Engineer virality on X. A skill that plans a launch or announcement post so people quote it, share it, and keep the conversation going long after it posts.
 
 ## Who it is for
