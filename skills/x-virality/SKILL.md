@@ -7,8 +7,6 @@ description: Plan an X launch or announcement so people quote and spread it. Bui
 
 Plan an X launch or announcement post so other people have reasons to quote it, share it, and keep the conversation going.
 
-Distilled from "How to Engineer Virality on X" by Juan ([@0xfJuan](https://x.com/0xfJuan)), founder of Ark Media. Original article: https://x.com/0xfjuan/status/2114746175026798821. The method is his. This skill restates it as a working checklist.
-
 ## Shape the post so people can quote it
 
 - Build the post around something specific a stranger can add to, such as the messy starting point, the result it produced, and what still had to be fixed by hand.

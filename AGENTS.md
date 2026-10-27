@@ -13,5 +13,7 @@ Notes for any agent working in this repository.
 ## Layout
 
 - Keep each skill in its own folder under `skills/`, with its `SKILL.md` as the entry point.
+- Give every skill a `README.md` in its folder, written for people rather than agents. Install instructions for that skill and any credits for source material go in that README.
+- Keep `SKILL.md` as the agent-facing method only. Credits and install steps do not belong in it.
 - Put a skill's supporting material in a `references/` folder inside that skill's folder.
 - Give every new skill a row in the README skills table in the same commit that adds it.
