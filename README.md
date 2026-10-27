@@ -12,7 +12,9 @@ npx skills add Archetypically/skills --skill x-virality
 
 ## Skills
 
-- **x-virality** — Engineer virality on X. Plan a launch or announcement post so people quote and spread it: quotable specifics built into the post, different angles matched to the right sharers, team coverage of the response, and a second wave planned from the results.
+| Skill | What it does |
+| --- | --- |
+| [x-virality](skills/x-virality/SKILL.md) | Engineer virality on X. Plan a launch or announcement post so people quote and spread it: quotable specifics built into the post, different angles matched to the right sharers, team coverage of the response, and a second wave planned from the results. |
 
 ## Credits
 
