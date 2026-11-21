@@ -101,6 +101,11 @@ SKILL.md when Evan repeats it or it decides an outcome.
   landed. The legend dropped to colour swatch plus logo plates; the
   fare brand moved into the tooltip. Legends identify; detail lives
   in tooltips. Folded into rule 14.
+- "On Flight Watches the tooltips should also be using the airline
+  logos" — the tooltip that received the detail also carries the
+  identity: each tooltip entry is led by its colour swatch and the
+  carrier's logo plates, with the fare brand beside them. Identity
+  stays consistent at every level of the same chart.
 
 ## Earlier builds (from the standing record)
 
