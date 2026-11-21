@@ -57,6 +57,11 @@ SKILL.md when Evan repeats it or it decides an outcome.
   all pairs ≥4.5:1, body text 13–16:1. Lessons: fix a busy backdrop in
   the backdrop first, and measure contrast over a patterned image on
   its actual pixels, never by reasoning.
+- "Also a Y-axes should start at 0" — the price trend chart auto-scaled
+  its Y axis to the data range, so a few hundred dollars of fare
+  movement filled the whole chart and read as a swing. Domain set to
+  start at 0. Stated as a general rule, so it graduated into rule 7 the
+  same day: chart axes do not exaggerate.
 
 ## Earlier builds (from the standing record)
 

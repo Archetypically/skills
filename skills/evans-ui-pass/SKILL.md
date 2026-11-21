@@ -95,7 +95,8 @@ changed and what was not verified.
    every chart: price down is good (teal/green family), price up is a
    warning (warm amber/red family), unchanged is neutral. Same hues in
    both schemes, adjusted only for contrast. Chart colors come from the
-   same vocabulary.
+   same vocabulary. Chart axes do not exaggerate: the Y axis starts at
+   0, so a small price move reads small.
 8. **Type with character, numbers with discipline.** A display serif for
    headlines and big numbers (Hedvig Letters Serif is the current
    favorite), a clean sans for body and tables. Tabular numbers on every
