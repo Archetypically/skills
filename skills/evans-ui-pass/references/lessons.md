@@ -106,6 +106,17 @@ SKILL.md when Evan repeats it or it decides an outcome.
   identity: each tooltip entry is led by its colour swatch and the
   carrier's logo plates, with the fare brand beside them. Identity
   stays consistent at every level of the same chart.
+- Asked which details.so vault items could elevate Flight Watches,
+  he took the shortlist (number flow, pixelated transition,
+  progressive blur, thinking orbs) and said "yeah try all of them."
+  External detail libraries are a legitimate elevation source when
+  each pick is matched against the page's own language first: the
+  number flow went on the dominant price, the pixel dissolve speaks
+  the halftone the backdrop already uses, the orbs replaced the
+  refresh spinner. The ones that fought the approved design (liquid
+  glass against the frosted panes, generic dot shapes duplicating
+  the built dot language) were named and skipped. Trying is cheap;
+  the judgment happens in the matching, and again on the result.
 
 ## Earlier builds (from the standing record)
 
