@@ -27,12 +27,24 @@ changed and what was not verified.
 
 ## The audit gate
 
+- The gate runs inside the build brief, not as a follow-up pass. A
+  restyle that lands unaudited is a debt that gets called in.
 - Run Hallmark sloplint on the source and plain-prose on the UI copy.
   Report both counts. 0 FAIL is the bar.
-- Fix mechanical flags. Waive flags that are the approved design itself,
-  each by name with its reason. A waiver is never silent.
+- Evan's triage, in his words: fix the cheap ones, waive the design
+  ones. Mechanical flags (stamp, meta, dashes in copy, off-scale
+  padding, untokenized colors) get fixed. Flags that are the approved
+  design itself get waived, each by name with its reason. A waiver is
+  never silent.
+- A tool that exits clean is not proof it ran. A check tier that
+  produced no output — the render tier silently never runs on some
+  machines — is reported as not run, never as passed.
+- Scope lint to the authored source. Findings in platform scaffold or
+  build output are named as such in the report; build output is never
+  hand-edited to satisfy a linter.
 - A count taken inside a builder's verification pass is reported as
-  exactly that, not as an independent run.
+  exactly that, not as an independent run. Counts derived by hand when
+  the tools cannot run are "probable, not confirmed," never run counts.
 - An agent that did not make the change reviews it before it is reported
   as done. A failed review is a failed build.
 
@@ -100,10 +112,17 @@ changed and what was not verified.
 11. **Accessibility is a floor, not a pass.** Main landmark, focus moves
     into a detail view and returns cleanly, load errors announce with
     role=alert, hit areas and accessible names pass, focus ring visible.
+    Pinch zoom is never disabled. Anything that auto-plays gets a stop
+    control, and reduced motion is honored in the JavaScript as well as
+    the CSS.
 12. **Named treatments are applied for real.** When Evan names a font, a
     texture, a photo, or a library from his Tidbits, the build uses that
     actual thing. An approximation is a different design decision and is
     reported as one.
+13. **Tactics travel, vibes stay local.** A treatment that works on one
+    of Evan's surfaces (frosted glass, token discipline, the audit gate)
+    ports to the others. Each surface keeps its own palette and mood;
+    nothing gets reskinned into a house clone.
 
 ## Reporting
 

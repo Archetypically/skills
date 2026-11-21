@@ -47,3 +47,64 @@ SKILL.md when Evan repeats it or it decides an outcome.
   the independent-review rule.
 - Live-read verification: a page that reads a snapshot is not live, and
   saying so plainly is part of the report.
+
+## Mined from the daily logs (Saturday, November 21, 2026)
+
+Episodes pulled from the November 12–15, 2026 daily logs, after Evan
+asked for lessons from previous design iterations to be learned properly.
+
+- **A check that exits clean is not proof it ran** (November 13, 2026,
+  skills review). Hallmark's render tier silently never runs on this
+  machine but exits clean, so a build could be reported as passing a
+  check that never executed. If a tier produced no output, the report
+  says "not run." Same shape in the font builds (November 14, 2026):
+  fontbakery was not installed, so it was reported as not run, never as
+  passed, and the Cyrillic and Greek glyphs that ride along from the
+  base fonts were reported as uncertified, never as checked.
+- **Lint the authored source, not the build output** (Incident Ledger,
+  November 13, 2026). The ledger's authored files reached 0 FAIL,
+  0 REFLEX, 0 WARN while the whole tree still showed findings confined
+  to platform scaffold CSS in the build output, which regenerates on
+  every build. Scaffold findings get named as platform output in the
+  report; build output is never hand-edited to satisfy a linter.
+- **"Fix the cheap ones, waive the design ones"** (BishopPair command
+  center, November 14, 2026; repeated November 15). Evan's triage, in
+  his words. Cheap: the Hallmark stamp, a meta description, dashes in
+  copy, padding off the 4px scale, a tracked uppercase tag, color
+  literals that belong on tokens. Design: the glass blur and hairline
+  warnings (gates 29 and F24) that flag the approved frosted glass
+  itself, the design's own color literals, and middle-dot strings that
+  are a channel's own post-copy style.
+- **A restyle that lands unaudited is a debt that gets called in**
+  (Disk Space, November 14–15, 2026). The night-foliage restyle shipped
+  with the gate open twice; Evan had to order a separate no-change pass
+  just to run the counters. The audit belongs inside the build brief.
+  Companion failure from the same week: a builder's "audit passed" with
+  no sloplint or prose counts in any record is not the gate, and counts
+  hand-derived from source when a sandbox cannot run the tools are
+  "probable, not confirmed" — never reported as run counts.
+- **Contrast is reported per pair, against the worst surface** (Disk
+  Space, November 14, 2026). Every text pairing carried its ratio:
+  headline 10.0:1, muted labels 6.0:1, treemap labels 5.8:1 measured on
+  the lightest tile, not the average tile.
+- **Auto-playing motion needs a stop, and reduced motion is a JS rule
+  too** (Disk Space, November 13, 2026). The scan animation auto-ran
+  with no pause control (a WCAG 2.2.2 gap), and a misspelled
+  reduced-motion query in the script meant the JS ignored reduced
+  motion while the CSS honored it. Both halves get checked.
+- **Small flags, exact fixes** (Incident Ledger, November 13, 2026).
+  Pinch zoom restored by removing user-scalable=no; a 3px focus ring
+  that clears 3:1 in both color schemes; overflow-x: clip on the shell;
+  pressed states on buttons and fields; a real disabled style instead
+  of an opacity utility.
+- **Split the prose flags before reporting them** (Velvet command
+  center, November 14, 2026). Of 10 plain-prose flags, 4 were real copy
+  (em dashes, fixed) and 6 were the "—" empty-value placeholder in
+  code, kept by design. And one Ledger flag was an extractor artifact —
+  columns glued into a fake 49-word sentence — waived as an artifact
+  after checking the rendered text. Check the rendered text before
+  fixing copy that is not broken.
+- **Tactics travel, vibes stay local** (November 14, 2026). Evan had
+  the BishopPair and Velvet command centers elevated with the Disk
+  Space restyle's tactics — frosted glass, token discipline, the audit
+  gate — while each center kept its own distinct vibe and palette.
