@@ -62,6 +62,45 @@ SKILL.md when Evan repeats it or it decides an outcome.
   movement filled the whole chart and read as a swing. Domain set to
   start at 0. Stated as a general rule, so it graduated into rule 7 the
   same day: chart axes do not exaggerate.
+- "Include a button to proactive launch a refresh" — the standing
+  daily check got a manual trigger in the header: same check, a
+  visible checking state, and the list refetches itself when the new
+  prices land. Automation does not remove the on-demand path.
+- "Remove the 'new watch' flow, I'll only ever ask you to put in
+  watches for me" — the creation form came out entirely. The server
+  action Muse uses stayed; the empty state now says to ask Muse.
+  Graduated into rule 15 the same day.
+- "The fare class should be a badge with an icon and the times of day
+  could be slides with dots (like a bar and whisker)" — fare class
+  became an icon badge, stops a dot-and-line badge, every leg got a
+  24-hour time-of-day strip with departure and arrival dots and a
+  +1 day marker on overnight legs, and each price got a range strip
+  between its low and high ticks. Components over text, his examples
+  treated as the pattern for the whole page.
+- "More at a glance intuition — color language, icons,
+  generative/visual representation and less walls of text where it
+  makes sense to do so without feeling kitschy" — the governing
+  principle for the component pass. Graduated into rule 14 the same
+  day, kitsch guardrail included.
+- "Some of the badge text is overflowing" — the badges carried
+  nowrap and clipped against cards and a capped table cell. Fixed by
+  wrapping inside the badge. A component is not done until it has
+  been probed at real widths in both layouts.
+- "Show dotted threshold lines for max/min" — the trend chart gained
+  dotted reference lines at the watch's lowest and highest totals,
+  labeled with their values in the min/max colors. Reference lines
+  carry the range so the eye does not have to estimate it.
+- "Can we use real airline logos? That will help for things like the
+  legends" — genuine wordmarks (Wikimedia Commons SVGs, bundled) on
+  small white plates that read in both schemes, leading the trend
+  legend, the min/max footer, the table, the cards, and the settled
+  panel. A carrier with no owned logo falls back to its name on the
+  same plate, never a drawn imitation.
+- "The legends have too much information, they just need the airlines
+  and the tooltips can carry the detail" — minutes after the logos
+  landed. The legend dropped to colour swatch plus logo plates; the
+  fare brand moved into the tooltip. Legends identify; detail lives
+  in tooltips. Folded into rule 14.
 
 ## Earlier builds (from the standing record)
 

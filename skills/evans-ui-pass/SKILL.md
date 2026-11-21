@@ -127,6 +127,20 @@ changed and what was not verified.
     of Evan's surfaces (frosted glass, token discipline, the audit gate)
     ports to the others. Each surface keeps its own palette and mood;
     nothing gets reskinned into a house clone.
+14. **At-a-glance intuition beats text walls.** Where a visual carries a
+    fact faster than a sentence, the visual ships: semantic color, icons
+    with one fixed meaning, and small generative visuals (time-of-day
+    strips, price range strips, dotted min/max threshold lines). Text
+    walls get cut where a component carries the same fact; exact numbers
+    stay as text. Legends identify; detail lives in tooltips. The
+    guardrail is Evan's: never kitschy. No decorative icon clutter, no
+    novelty shapes — every visual earns its place by making something
+    readable at a glance, or it does not ship.
+15. **His surfaces are for reading; creation is agent work.** Evan asks
+    Muse to put data in. He does not use self-serve forms, so his
+    personal spaces carry no new-item flows or entry forms. The write
+    actions stay on the server for Muse to use, and an empty state
+    says to ask Muse.
 
 ## Reporting
 
