@@ -73,8 +73,11 @@ changed and what was not verified.
 3. **Frosted glass stays honest.** Panes are very transparent but not
    totally transparent: the scene shows through, and a hairline border
    holds the pane's shape. Strong backdrop blur does the legibility work.
-4. **No slop tells.** No halftone or dot-grain overlays. No random
-   per-item colored glows. No rows of pill-shaped chips or controls —
+4. **No slop tells.** No halftone or dot-grain overlays laid over a
+   finished design. A photograph rendered as a dithered halftone of
+   itself is a named treatment, not an overlay — Evan asked for it by
+   name from his Tidbits (the morrre_dsgn reference) on Flight Watches.
+   No random per-item colored glows. No rows of pill-shaped chips or controls —
    pills scream slop. Controls are quiet: small radius, hairline border,
    plain text, subtle hover.
 5. **Chrome earns its place.** Summary totals live as small badges next

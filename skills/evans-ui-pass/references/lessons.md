@@ -39,6 +39,13 @@ SKILL.md when Evan repeats it or it decides an outcome.
   photo in both schemes (white wash in light, dark veil in dark), above
   the scrim, to even out the photo's bright and dark patches so text
   contrast holds across the whole page, not just on average.
+- "Also pick an artsier background / More like my design tidbits" —
+  the cloud photos were re-rendered as dithered halftones of
+  themselves (blue/white duotone in light, silver dots over near-black
+  in dark), straight from the morrre_dsgn Tidbits reference he filed
+  two days earlier. This rewrote rule 4: the ban is on grain overlays
+  laid over a finished design; a photograph dithered as itself is a
+  named treatment.
 
 ## Earlier builds (from the standing record)
 
