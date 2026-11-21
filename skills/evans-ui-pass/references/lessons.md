@@ -117,6 +117,12 @@ SKILL.md when Evan repeats it or it decides an outcome.
   glass against the frosted panes, generic dot shapes duplicating
   the built dot language) were named and skipped. Trying is cheap;
   the judgment happens in the matching, and again on the result.
+- "Can you animate the numbers whenever the page loads or
+  transitions?" — minutes after the vault pass landed. A value
+  animation that only fires on change is invisible most of the
+  time; on his reading surfaces the numbers count up on load and on
+  every view transition too, so the motion is part of arriving, not
+  only of updating. Reduced motion still lands instantly.
 
 ## Earlier builds (from the standing record)
 
