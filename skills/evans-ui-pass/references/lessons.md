@@ -117,6 +117,10 @@ SKILL.md when Evan repeats it or it decides an outcome.
   glass against the frosted panes, generic dot shapes duplicating
   the built dot language) were named and skipped. Trying is cheap;
   the judgment happens in the matching, and again on the result.
+  The result, same day: the number flow stayed and drew "great,
+  great little grace note"; the pixelated transition was cut on
+  sight ("Remove the pixelated transition though") and removed
+  whole — overlay, trigger, CSS, all of it, no vestige kept.
 - "Can you animate the numbers whenever the page loads or
   transitions?" — minutes after the vault pass landed. A value
   animation that only fires on change is invisible most of the
