@@ -34,6 +34,11 @@ SKILL.md when Evan repeats it or it decides an outcome.
   option" on a watch whose only option was JetBlue — "Delta" was the
   math term. Copy fixed to "Differences are measured against the current
   lowest option in this watch." Origin of the domain-noun collision rule.
+- "Add a light screen, really subtle to the background but just to
+  increase contrast" — a faint screen layer went over the background
+  photo in both schemes (white wash in light, dark veil in dark), above
+  the scrim, to even out the photo's bright and dark patches so text
+  contrast holds across the whole page, not just on average.
 
 ## Earlier builds (from the standing record)
 
