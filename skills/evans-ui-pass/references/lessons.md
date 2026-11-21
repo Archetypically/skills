@@ -46,6 +46,17 @@ SKILL.md when Evan repeats it or it decides an outcome.
   two days earlier. This rewrote rule 4: the ban is on grain overlays
   laid over a finished design; a photograph dithered as itself is a
   named treatment.
+- The first halftone cut failed in Evan's hands: "Can't see anything
+  now the contrast is really bad," then "It's too busy I think." The
+  fix that held: calm the backdrop itself (ink pulled close to the
+  paper colour, tonal range compressed, finer softened dots —
+  near-flat at a glance, dither visible only up close) and move the
+  separation to the content side (panes went from 30% to 86–94%
+  opacity, heavier scrim and screen, text halos). Contrast was
+  measured by compositing the real backdrop pixels under the layers:
+  all pairs ≥4.5:1, body text 13–16:1. Lessons: fix a busy backdrop in
+  the backdrop first, and measure contrast over a patterned image on
+  its actual pixels, never by reasoning.
 
 ## Earlier builds (from the standing record)
 
