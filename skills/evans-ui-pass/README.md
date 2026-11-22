@@ -13,8 +13,9 @@ contrast was measured on the rendered pairs in both color schemes, and the
 report says per skill what changed and what was not verified.
 
 The taste rules in one breath: real photography over drawn scenes, system
-light/dark with no toggle, frosted glass that stays transparent, no pills,
-no grain, no random glows, totals as badges by the header and metadata in
+light/dark with no toggle, frosted glass at high opacity, no pills,
+no grain overlays (a photograph dithered as itself is a treatment, not
+an overlay), no random glows, totals as badges by the header and metadata in
 a footer, hierarchy that reads at a glance, and color that means one thing
 everywhere it appears.
 

@@ -1,6 +1,6 @@
 ---
 name: evans-ui-pass
-description: Evan's UI pass — the design iteration method distilled from his corrections across web builds. Use on any UI build, edit, or design review for Evan: run the installed skills for real, apply his taste rules (real photography over drawn scenes, system light/dark, transparent frosted panes, no slop tells, strict hierarchy, disciplined color language), verify with measured contrast and the Hallmark audit gate, report per skill, and distill new nudges back into this skill in the same pass.
+description: Evan's UI pass — the design iteration method distilled from his corrections across web builds. Use on any UI build, edit, or design review for Evan: run the installed skills for real, apply his taste rules (real photography over drawn scenes, system light/dark, mostly-opaque frosted panes, no slop tells, strict hierarchy, disciplined color language), verify with measured contrast and the Hallmark audit gate, report per skill, and distill new nudges back into this skill in the same pass.
 ---
 
 # Evan's UI pass
@@ -17,8 +17,10 @@ changed and what was not verified.
 - If a skill Evan names is not installed, say so plainly, then install it
   properly before the pass continues. His catalog vendors upstream skills
   (Hallmark; Emil Kowalski's animation and design set; Jakub Krehel's
-  better-* family) — vendored copies are byte-identical to upstream and
-  registered in the vendored-skills manifest.
+  better-* family) — vendored copies are byte-identical to their pinned
+  clones and registered in the vendored-skills manifest. A pin can lag
+  upstream (Hallmark's currently sits 8 commits behind), so
+  `vendored-skills check` is the word on currency, not this page.
 - The standing set for a web build: Hallmark (sloplint audit), Emil's
   design-eng and animation skills, and the better-* family — better-ui,
   better-colors, better-typography, better-layout, better-motion,
@@ -65,14 +67,18 @@ changed and what was not verified.
 
 1. **Real photography beats drawn scenes.** CSS-gradient skies and clouds
    read as slop. Scenic backgrounds come from real stock (Pexels is the
-   standing source). Judge the frames themselves, never the listing
-   description.
+   standing source, not the only allowed one — the Flight Watches light
+   scheme is a Pixabay photo). Judge the frames themselves, never the
+   listing description.
 2. **Follow the system.** `prefers-color-scheme`, no manual toggle. Light
    and dark are both full designs in the same language, not one design
    and its inversion.
-3. **Frosted glass stays honest.** Panes are very transparent but not
-   totally transparent: the scene shows through, and a hairline border
-   holds the pane's shape. Strong backdrop blur does the legibility work.
+3. **Frosted glass stays honest.** Panes are mostly opaque, 86–94%
+   opacity: the scene tints through rather than showing through, and a
+   hairline border holds the pane's shape. Opacity and scrim do the
+   legibility work; backdrop blur is a finish, not the structure. The
+   very transparent cut failed in Evan's hands on Flight Watches
+   ("Can't see anything now") — do not rebuild it.
 4. **No slop tells.** No halftone or dot-grain overlays laid over a
    finished design. A photograph rendered as a dithered halftone of
    itself is a named treatment, not an overlay — Evan asked for it by

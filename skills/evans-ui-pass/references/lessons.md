@@ -56,7 +56,9 @@ SKILL.md when Evan repeats it or it decides an outcome.
   measured by compositing the real backdrop pixels under the layers:
   all pairs ≥4.5:1, body text 13–16:1. Lessons: fix a busy backdrop in
   the backdrop first, and measure contrast over a patterned image on
-  its actual pixels, never by reasoning.
+  its actual pixels, never by reasoning. The opacity half of this
+  lesson graduated into rule 3 on review (November 22, 2026): panes
+  are mostly opaque, and opacity plus scrim do the legibility work.
 - "Also a Y-axes should start at 0" — the price trend chart auto-scaled
   its Y axis to the data range, so a few hundred dollars of fare
   movement filled the whole chart and read as a swing. Domain set to
